@@ -1,0 +1,35 @@
+# @name create-link
+POST http://localhost:3002/api/links
+Content-Type: application/json
+
+{
+  "code": "movedigital",
+  "url": "https://movedigital.com.br"
+}
+
+###
+
+# @name get-links
+GET http://localhost:3002/api/links
+Content-Type: application/json
+
+{
+}
+
+###
+
+# @name get-converted-link
+GET http://localhost:3002/movemenu
+Content-Type: application/json
+
+{
+}
+
+###
+
+# @name get-rank-links
+GET http://localhost:3002/rank
+Content-Type: application/json
+
+{
+}
